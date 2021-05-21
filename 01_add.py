@@ -5,7 +5,7 @@ import unittest
 
 
 def add(n1, n2):
-    pass
+    return(n1+n2)
 
 
 # DO NOT TOUCH THE BELOW CODE
@@ -21,5 +21,5 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(add(33, 44), 77)
 
 
-if __name__ == '__main__':
+if __name__ == '_main_':
     unittest.main(verbosity=2)
